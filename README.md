@@ -11,4 +11,14 @@ Vervolgens vanuit de directory 'Webshop/django-ecommerce-wagtail':
 $ source env/bin/activate
 
 Als het goed is kun je nu de volgende dingen doen:
-$ python manage.py 
+$ python manage.py makemigrations
+$ python manage.py migrate
+$ python manage.py runserver
+
+Volg vervolgens de link die verschijnt in de command line naar je lokaal gehoste website!
+Credits naar:
+Charles Ouellet
+Hier vind je zijn tutorial, waar dit skelet vandaan komt
+https://snipcart.com/blog/django-ecommerce-tutorial-wagtail-cms
+
+
